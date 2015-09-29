@@ -18,7 +18,7 @@ if (!isset($_SESSION['login_user']) || empty($_SESSION['login_user'])) {
         <meta name="description" content="">
         <meta name="author" content="">
         <title>Seguros Santos Guzman</title>
-        
+
         <link href="/Cobranza/css/bootstrap.min.css" rel="stylesheet">
         <link href="/Cobranza/css/dashboard.css" rel="stylesheet">
         <link href="/Cobranza/css/dataTables.bootstrap.css" rel="stylesheet">
@@ -34,7 +34,7 @@ if (!isset($_SESSION['login_user']) || empty($_SESSION['login_user'])) {
         <script src="/Cobranza/js/dataTables.tableTools.js"></script>
         <script src="/Cobranza/js/waitProcessing.js"></script>
         <script src="../js/jquery.datetimepicker.js"></script>
-        
+
         <script type="text/javascript" src="/Cobranza/js/noty/packaged/jquery.noty.packaged.min.js"></script>
         <script type="text/javascript" src="/Cobranza/js/noty/themes/bootstrap.js"></script>
         <script type="text/javascript" src="/Cobranza/js/hegarss.js"></script>
@@ -68,7 +68,7 @@ if (!isset($_SESSION['login_user']) || empty($_SESSION['login_user'])) {
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Herramientas <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="/Cobranza/php/ActualizacionesSvn.php">Actualizaciones</a></li>
+                                <li><a href="/Cobranza/php/ActualizacionGit.php">Actualizaciones</a></li>
                             </ul>
                         </li>
                         <li><a href="/Cobranza/php/Logout.php"><span class="glyphicon glyphicon-log-out"></span> Salir</a></li>
@@ -76,6 +76,6 @@ if (!isset($_SESSION['login_user']) || empty($_SESSION['login_user'])) {
                 </div>
             </div>
         </nav>
-        <div id="MyModal" class="modal fade" role="dialog" tabindex="-1" data-backdrop="static" role="dialog" data-keyboard="false"> 
-            <!-- Contenido de la ventana Modal a Mostrar--> 
+        <div id="MyModal" class="modal fade" role="dialog" tabindex="-1" data-backdrop="static" role="dialog" data-keyboard="false">
+            <!-- Contenido de la ventana Modal a Mostrar-->
         </div>
